@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+}
+.first-text{
+	font-family: sans-serif;
+	box-shadow: 4px 4px 4px #888888;
+	text-align: center;
+	padding:10px;
+
+}
+
+.container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box1{
+	width: 100px;
+	background-color:lightblue;
+	height:80px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 5px;
+	transition: linear 1s;
+}
+
+.box1:hover{
+	width: 150px;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	justify-content: left;
+	transition: all 1s;
+
+}
+
+.eyes{
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	margin-top: 60px;
+	border-radius: 100%;
+	margin-left:20px;
+	margin-right:20px;
+	
+}
+
+.box2{
+	background-color: lightblue;
+	height:60px;
+	width: 20px;
+	border-radius: 50px;
+	margin-left:5px;
+	margin-right: 5px
+}
+
+.box3{
+	width:100px;
+	height:100px;
+	background-color: lightblue;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.box4{
+	background-color: lightblue;
+	height:60px;
+	width: 20px;
+	border-radius: 50px;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-top: -10px;
+}
+
+.box5{
+	background-color: lightblue;
+	height:60px;
+	width: 20px;
+	border-radius: 50px;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-top: -10px;
+}
+
+.box4:hover{
+	transform: rotate(20deg);
+}
+
+
